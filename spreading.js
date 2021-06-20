@@ -13,6 +13,7 @@ const incomingLocation = {
 
 const finalLocation = {
 	...defaultLocation,
+	zipCode:[...defaultLocation.zipCode],
 	...incomingLocation
 }
 
