@@ -1,7 +1,7 @@
 
 const defaultLocation={
 	city: 'Rajshahi',
-	zipCode: '8363',
+	zipCode: [],
 	country: 'Bangladesh',
 
 }
@@ -17,3 +17,8 @@ const finalLocation = {
 }
 
 console.log(finalLocation);
+
+finalLocation.zipCode.push('100');
+
+console.log(finalLocation);
+console.log(defaultLocation);
